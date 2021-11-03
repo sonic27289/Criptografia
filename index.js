@@ -76,3 +76,12 @@ function limpar(){
     }
     document.getElementById(0).focus();
 }
+function resposta(){
+    var respostax = document.getElementById("resposta").value;
+    if(respostax === "cifra de substituição"){
+        window.alert("Parabéns !")
+    }
+    else{
+        window.alert("Resposta errada, tente novamente !")
+    }
+}
